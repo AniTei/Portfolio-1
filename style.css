@@ -27,7 +27,8 @@ footer {
 
 footer div {
     background-color: rgba(182, 229, 101);
-    width: 20%;
+    max-width: 300px;
+    padding: 0 5%;
 
 }
 
