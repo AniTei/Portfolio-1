@@ -22,14 +22,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1%;
+    padding: 2%;
     text-align: center;
     
 }
 footer div {
     background-color: rgba(182, 229, 101);
-    padding: 1% ;
-    width: 20%;
+/*     padding: 1% ;
+ */    width: 20%;
 
 }
 
@@ -41,7 +41,6 @@ h1 {
     max-width: 500px;
     margin: auto;
     font-family: 'Cherry Bomb One', cursive;
-    padding-bottom: 10%;
 
 
     text-shadow: 10px 10px 0 #fff,
@@ -89,20 +88,42 @@ a {
     color: black;
 }
 
+.intro-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.down {
+    color: #2c98b3;
+    font-size: 3em;
+}
 
-.cardholder p{
+.introduction {
     max-width: 60%;
     border-bottom: #2c98b3 solid 3px;
     padding: 5%;
     background-color: aliceblue;
-    
 }
-.cardholder {
+
+
+
+footer {
+    background-color: rgba(182, 229, 101, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2%;
     text-align: center;
+    
+}
+footer div {
+    background-color: rgba(182, 229, 101);
+/*     padding: 1% ;
+ */    width: 20%;
+
+
+
 }
 
 .card {
@@ -114,4 +135,13 @@ a {
 
 
 
+@media (max-width: 800px) {
+    main {
+         margin: 0;
 
+    }
+    h1 {
+        font-size: 4em;
+    }
+   
+}
