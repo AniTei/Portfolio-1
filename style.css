@@ -1,0 +1,117 @@
+
+
+body {
+    background-color: aliceblue;
+    background-image: url("images/Drawing.png");
+    position: absolute;
+    max-width: 100%;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+     
+}
+
+main {
+    background-color: rgba(240, 248, 255, 0.8) ;
+    margin: 15%;
+    padding: 2%;
+
+/*     border: solid 5px #000; */
+}
+
+footer {
+    background-color: rgba(182, 229, 101, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    text-align: center;
+    
+}
+footer div {
+    background-color: rgba(182, 229, 101);
+    padding: 1% ;
+    width: 20%;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size:5em;
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Cherry Bomb One', cursive;
+    padding-bottom: 10%;
+
+
+    text-shadow: 10px 10px 0 #fff,
+    -10px 10px 0 #fff,
+    10px -10px 0 #fff,
+    -10px -10px 0 #fff,
+    0px 10px 0 #fff,
+    0px -10px 0 #fff,
+    -10px 0px 0 #fff,
+    10px 0px 0 #fff,
+    20px 20px 0 #fff,
+    -20px 20px 0 #fff,
+    20px -20px 0 #fff,
+    -20px -20px 0 #fff,
+    0px 20px 0 #fff,
+    0px -20px 0 #fff,
+    -20px 0px 0 #fff,
+    20px 0px 0 #fff,
+    10px 20px 0 #fff,
+    -10px 20px 0 #fff,
+    10px -20px 0 #fff,
+    -10px -20px 0 #fff,
+    20px 10px 0 #fff,
+    -20px 10px 0 #fff,
+    20px -10px 0 #fff,
+    -20px -10px 0 #fff;
+
+/*     https://stackoverflow.com/questions/2570972/css-font-border */
+    
+/* 
+
+ text-shadow: -10px 0 rgb(162, 39, 39), 0 10px rgb(255, 255, 255), 10px 0 black, 0 -10px black;
+  */ 
+    color: #2c98b3;
+
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+
+a {
+    color: black;
+}
+
+
+.cardholder p{
+    max-width: 60%;
+    border-bottom: #2c98b3 solid 3px;
+    padding: 5%;
+    background-color: aliceblue;
+    
+}
+.cardholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+}
+
+.card {
+    padding: 5%;
+    background-color: #fff;
+    border: #2c98b3 solid;
+    margin-top: 10%;
+}
+
+
+
+
