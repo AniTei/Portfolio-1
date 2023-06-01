@@ -1,8 +1,7 @@
 body {
     background-color: aliceblue;
     background-image: url("images/Drawing.png");
-/*     position: absolute;
- */    max-width: 100%;
+    max-width: 100%;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 
 }
@@ -12,7 +11,8 @@ main {
     margin: 15%;
     padding: 2%;
 
-    border: solid 5px #000;
+    /*     border: solid 5px #000;*/
+
 }
 
 footer {
@@ -31,16 +31,14 @@ footer div {
 
 }
 
-
-
 h1 {
     text-align: center;
     font-size: 5em;
     max-width: 500px;
     margin: auto;
     font-family: 'Cherry Bomb One', cursive;
-
     color: #2c98b3;
+
     text-shadow: 10px 10px 0 #fff,
         -10px 10px 0 #fff,
         10px -10px 0 #fff,
@@ -68,15 +66,11 @@ h1 {
 
     /*     https://stackoverflow.com/questions/2570972/css-font-border */
 
-
-
 }
-
 
 h2 {
     margin-top: 0;
 }
-
 
 a {
     color: black;
@@ -101,7 +95,6 @@ a {
     background-color: aliceblue;
 }
 
-
 .card {
     padding: 5%;
     background-color: #fff;
@@ -112,11 +105,9 @@ a {
 @media (max-width: 800px) {
     main {
         margin: 0;
-
     }
 
     h1 {
         font-size: 4em;
     }
-
 }
