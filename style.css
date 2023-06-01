@@ -87,6 +87,7 @@ a {
 .down {
     color: #2c98b3;
     font-size: 3em;
+    font-weight: bolder;
 }
 
 .introduction {
