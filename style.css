@@ -74,8 +74,23 @@ h2 {
     margin-top: 0;
 }
 
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btns div{
+    margin: 3%;
+    width: 200px;
+    text-align: center;
+
+
+}
+
 a {
-    color: black;
+    color: white;
+    padding: 7% 21%;
+    margin: 1%;
+    font-weight: bolder;
 }
 
 .intro-outer {
@@ -103,6 +118,14 @@ a {
     background-color: #fff;
     border: #2c98b3 solid;
     margin-top: 10%;
+}
+
+
+.git {
+    background-color: #1d6577;
+}
+.site {
+    background-color: #ad2c6f;
 }
 
 @media (max-width: 800px) {
