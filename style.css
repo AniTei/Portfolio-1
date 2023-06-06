@@ -9,7 +9,7 @@ body {
 main {
     background-color: rgba(240, 248, 255, 0.8);
     margin: 15%;
-    padding: 2%;
+    padding: 5%;
 
     /*     border: solid 5px #000;*/
 
@@ -70,38 +70,8 @@ h1 {
 
 }
 
-h2 {
-    margin-top: 0;
-}
-
-.screenshot img{
-    max-width: 100%;
-    border: solid #000 1px;
-    box-shadow: #919191 1px 2px 3px;
-    margin: 5% 0;
-}
-
-.btns {
-    display: flex;
-    justify-content: space-evenly;
-}
-.btns div{
-    margin: 3%;
-    width: 200px;
-    text-align: center;
 
 
-}
-
-a {
-    color: #000;
-    padding: 7% 21%;
-    margin: 1%;
-    font-weight: bolder;
-    border: solid #000 1px;
-    box-shadow: #919191 1px 2px 3px;
-   
-}
 
 .intro-outer {
     display: flex;
@@ -118,18 +88,54 @@ a {
 
 .introduction {
     max-width: 60%;
-    border-bottom: #2c98b3 solid 3px;
+    border-bottom: #2c98b3 solid 4px;
     padding: 5%;
     background-color: aliceblue;
 }
 
+
+
+
+
+
 .card {
     padding: 5%;
     background-color: #fff;
-    border: #2c98b3 solid;
+    border: #2c98b3 solid 2px;
     margin-top: 10%;
 }
 
+h2 {
+    margin-top: 0;
+}
+
+.screenshot img {
+    max-width: 100%;
+    border: solid #000 1px;
+    box-shadow: #919191 1px 2px 3px;
+    margin: 5% 0;
+}
+
+a {
+    color: #000;
+    padding: 7% 21%;
+    margin: 1%;
+    font-weight: bolder;
+    border: solid #000 1px;
+    box-shadow: #919191 1px 2px 3px;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns div {
+    margin: 3%;
+    width: 200px;
+    text-align: center;
+}
 
 .git:hover {
 
@@ -137,10 +143,15 @@ a {
     transition: 0.7s;
 
 }
+
 .site:hover {
     background-color: #ffcce6;
     transition: 0.7s;
 }
+
+
+
+
 
 @media (max-width: 800px) {
     main {
