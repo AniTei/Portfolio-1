@@ -74,6 +74,13 @@ h2 {
     margin-top: 0;
 }
 
+.screenshot img{
+    max-width: 100%;
+    border: solid #000 1px;
+    box-shadow: #919191 1px 2px 3px;
+    margin: 5% 0;
+}
+
 .btns {
     display: flex;
     justify-content: space-evenly;
@@ -87,10 +94,13 @@ h2 {
 }
 
 a {
-    color: white;
+    color: #000;
     padding: 7% 21%;
     margin: 1%;
     font-weight: bolder;
+    border: solid #000 1px;
+    box-shadow: #919191 1px 2px 3px;
+   
 }
 
 .intro-outer {
@@ -121,11 +131,15 @@ a {
 }
 
 
-.git {
-    background-color: #1d6577;
+.git:hover {
+
+    background-color: #9acedb;
+    transition: 0.7s;
+
 }
-.site {
-    background-color: #ad2c6f;
+.site:hover {
+    background-color: #ffcce6;
+    transition: 0.7s;
 }
 
 @media (max-width: 800px) {
